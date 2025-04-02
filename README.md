@@ -1,4 +1,4 @@
-# escrow_subscription
+# escrow-subscription
 
 Solving monthly payments for blockchain
 
