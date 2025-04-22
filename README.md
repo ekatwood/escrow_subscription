@@ -1,16 +1,23 @@
-# escrow_subscription
+# escrow-subscription
 
 Solving monthly payments for blockchain
 
-## Getting Started
+Subscription model is difficult with blockchain, because you have to sign every transaction.
 
-This project is a starting point for a Flutter application.
+I propose a simple solution: the user puts in say $100 for a $10 / month subscription, and pre-approves the transactions on a schedule (once a month for 10 months). The value is stored in a smart contract in escrow, where it can be staked while it sits there. The user can also cancel their subscription early and get the rest of their value back from the escrow smart contract.
 
-A few resources to get you started if this is your first Flutter project:
+The front end will be a simple web app, and ideally users could pay with $USDC or any major accepted stable coin for mainstream subscriptions like Netflix or Spotify.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+It should also be easy enough for users to set up their own custom subscription model, say for a website they built or some other online service they are offering for a monthly rate.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tech stack for this project:
+
+Flutter
+
+Firebase
+
+JavaScript or Rust for smart contracts
+
+Google Cloud functions for APIs and scheduling functions
+
+If you would like to donate to support this project, send $LTC to: MFxBxp8ysZVXezAADWBt6tgDf2iqfq6LbY
