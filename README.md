@@ -10,4 +10,14 @@ The front end will be a simple web app, and ideally users could pay with $USDC o
 
 It should also be easy enough for users to set up their own custom subscription model, say for a website they built or some other online service they are offering for a monthly rate.
 
+Tech stack for this project:
+
+Flutter
+
+Firebase
+
+JavaScript or Rust for smart contracts
+
+Google Cloud functions for APIs and scheduling functions
+
 If you would like to donate to support this project, send $LTC to: MFxBxp8ysZVXezAADWBt6tgDf2iqfq6LbY
