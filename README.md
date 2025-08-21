@@ -1,4 +1,4 @@
-# escrow-subscription
+# Buy Zoom
 
 Solving monthly payments for blockchain
 
@@ -18,6 +18,4 @@ Firebase
 
 JavaScript or Rust for smart contracts
 
-Google Cloud functions for APIs and scheduling functions
-
-If you would like to donate to support this project, send $LTC to: MFxBxp8ysZVXezAADWBt6tgDf2iqfq6LbY
+Google Cloud functions
